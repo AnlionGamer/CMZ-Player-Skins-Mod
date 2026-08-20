@@ -1,0 +1,67 @@
+{
+  "packageFormat": 1,
+  "id": "cmz.player-skin-randomizer",
+  "name": "Player Skins",
+  "author": "AnlionGamer",
+  "version": "1.3.3",
+  "description": "Local-only cosmetic player skins with 17 solid-color appearances and configurable personal skin selection. Requires CMZ Mod Manager 1.1.1 or newer.",
+  "gameVersion": "1.9.9.8",
+  "framework": "1.0.0",
+  "api": "1.0.0",
+  "entryAssembly": "PlayerSkinRandomizer.dll",
+  "entryType": "CMZ.PlayerSkinRandomizer.PlayerSkinRandomizerMod",
+  "dependencies": [],
+  "optionalDependencies": [],
+  "incompatibilities": [],
+  "loadAfter": [],
+  "loadBefore": [],
+  "files": [
+    {
+      "path": "PlayerSkinRandomizer.dll",
+      "sha256": "743ab7510774a43855578c4643c65de0564d1027c2f53c5e9fe0f14714be772b"
+    }
+  ],
+  "releaseNotes": "Release build of Player Skins v1.3.3. Uses the official CMZ SWAT diffuse texture as the source, recolors only identified uniform cloth, preserves tactical gear, and keeps cosmetic behavior local to the modded client. Runtime-tested in multiplayer with distinct local-only skin assignments and normal session shutdown. Requires CMZ Mod Manager 1.1.1 or newer.",
+  "multiplayer": "Client-side cosmetic only. Does not modify or extend multiplayer traffic or protocol and does not require other players to install the mod or Mod Manager.",
+  "configSchema": [
+    {
+      "key": "appearanceMode",
+      "label": "My Skin",
+      "description": "Random uses the normal shuffled skin pool. Select Skin(s) uses only your selected personal skins.",
+      "type": "choice",
+      "defaultValue": "Random",
+      "choices": [
+        "Random",
+        "Select Skin(s)"
+      ],
+      "scope": "global"
+    },
+    {
+      "key": "selectedSkins",
+      "label": "Selected Skin(s)",
+      "description": "Used when My Skin is Select Skin(s). One selected skin is fixed; multiple selected skins are randomly chosen for each new local match/session.",
+      "type": "multiselect",
+      "defaultValue": [],
+      "choices": [
+        "White",
+        "Coral Red",
+        "Copper Orange",
+        "Mustard Gold",
+        "Forest Green",
+        "Steel Blue",
+        "Periwinkle",
+        "Orchid",
+        "Gray",
+        "Crimson Red",
+        "Burnt Orange",
+        "Olive",
+        "Dark Green",
+        "Navy Blue",
+        "Indigo",
+        "Purple",
+        "Charcoal Black"
+      ],
+      "scope": "global"
+    }
+  ]
+}
