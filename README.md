@@ -107,9 +107,9 @@ Future Player Skins release packages should carry their applicable license and p
 
 ## License and Attribution
 
-The current repository `main` branch and future Player Skins work are distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See [`LICENSE`](LICENSE).
+The current repository `main` branch and future Player Skins work are governed by the **AnlionGamer Community Distribution Terms v1.0**. See [`LICENSE`](LICENSE).
 
-The license permits community use, study, modification, and free redistribution while prohibiting sale, paid access, deceptive rebranding, and deliberately malicious use. Independent works that merely interoperate with Player Skins remain the property of their own authors.
+The terms allow normal use, source inspection, and private modification. Public redistribution of the original project, source, packaged mod, forks, or modified builds requires **prior permission from AnlionGamer** and must remain **non-commercial**. Sale and paid access are prohibited without separate permission.
 
 **Historical license:** Player Skins v1.3.3 and earlier copies already published under the MIT License retain the MIT permissions that accompanied those releases. Relicensing the repository going forward does not revoke those historical permissions. See [`LICENSE_HISTORY.md`](LICENSE_HISTORY.md).
 
