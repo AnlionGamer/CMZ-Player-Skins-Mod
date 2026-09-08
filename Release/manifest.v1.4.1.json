@@ -1,0 +1,59 @@
+{
+  "referenceOnly": true,
+  "note": "Public reference summary for the v1.4.1 package. The installable .cmzmod on the GitHub Releases page contains the complete generated manifest, including all 140 choiceDetails and payload hashes.",
+  "packageFormat": 1,
+  "id": "cmz.player-skin-randomizer",
+  "name": "Player Skins",
+  "author": "AnlionGamer",
+  "publisher": "AnlionGamer",
+  "version": "1.4.1",
+  "gameVersion": "1.9.9.8",
+  "framework": "1.0.0",
+  "api": "1.0.0",
+  "recommendedManager": "1.2.0+",
+  "entryAssembly": "PlayerSkinRandomizer.dll",
+  "entryType": "CMZ.PlayerSkinRandomizer.PlayerSkinRandomizerMod",
+  "license": "AnlionGamer Community Distribution Terms v1.0",
+  "packageFile": "CMZ_Player_Skins_v1.4.1.cmzmod",
+  "packageSha256": "1e8323a4eee4842480ebc21690f6a3978265dc0430f8573a8d2cbd075282c866",
+  "packageManifestSha256": "ee42c556f0235a3f78d41e5e7ccddf0e6522790a4979fb31557abeab4125005b",
+  "runtimeDllSha256": "a4f4121f7eb206c0b25dce72c8767bec12799f24246b4de8b5ce3a6b082b08b7",
+  "catalog": {
+    "total": 140,
+    "solidColors": 17,
+    "camouflageAppearances": 123,
+    "stableIdsRetained": true
+  },
+  "settings": [
+    {
+      "key": "mySkins",
+      "page": "My Skins",
+      "type": "multiselect",
+      "emptyMeans": "Random",
+      "oneSelection": "Fixed local appearance",
+      "multipleSelections": "Random local appearance from selected pool per new match/session"
+    },
+    {
+      "key": "otherPlayerSkins",
+      "page": "Other Players Skins",
+      "type": "multiselect",
+      "emptyMeans": "Random",
+      "oneSelection": "Selected appearance for remote players on this client",
+      "multipleSelections": "Remote appearances assigned only from selected pool; pool is exhausted before reuse"
+    }
+  ],
+  "payload": {
+    "declaredFiles": 141,
+    "previewFiles": 140,
+    "runtimeAssemblies": 1
+  },
+  "validation": {
+    "compiledOfflineChecksPassed": true,
+    "privacyGuardPassed": true,
+    "declaredPayloadHashesReverifiedAfterLicenseMetadataCorrection": true,
+    "liveGameTestedForV1.4.1": false,
+    "xnaGraphicsDeviceTestedForV1.4.1": false,
+    "windowsPerformanceMeasuredForV1.4.1": false
+  },
+  "multiplayer": "Client-side cosmetic only. Does not modify or extend multiplayer traffic or protocol and does not require other players to install the mod or Mod Manager."
+}
