@@ -15,8 +15,8 @@
   "entryType": "CMZ.PlayerSkinRandomizer.PlayerSkinRandomizerMod",
   "license": "AnlionGamer Community Distribution Terms v1.0",
   "packageFile": "CMZ_Player_Skins_v1.4.1.cmzmod",
-  "packageSha256": "1e8323a4eee4842480ebc21690f6a3978265dc0430f8573a8d2cbd075282c866",
-  "packageManifestSha256": "ee42c556f0235a3f78d41e5e7ccddf0e6522790a4979fb31557abeab4125005b",
+  "packageSha256": "60529bb4d539f3946ca368b9c760c4b0f4eab1597eef09a839a24f7f28a3c269",
+  "packageManifestSha256": "ab2afb1e7069802d1854f82f040feb9eea9233434f32a39b2083bb9fa3fe9aa3",
   "runtimeDllSha256": "a4f4121f7eb206c0b25dce72c8767bec12799f24246b4de8b5ce3a6b082b08b7",
   "catalog": {
     "total": 140,
@@ -43,14 +43,17 @@
     }
   ],
   "payload": {
-    "declaredFiles": 141,
+    "declaredFiles": 143,
     "previewFiles": 140,
-    "runtimeAssemblies": 1
+    "runtimeAssemblies": 1,
+    "licenseAndNoticeFiles": 2
   },
   "validation": {
     "compiledOfflineChecksPassed": true,
     "privacyGuardPassed": true,
-    "declaredPayloadHashesReverifiedAfterLicenseMetadataCorrection": true,
+    "declaredPayloadHashesReverifiedAfterLicenseCorrection": true,
+    "licenseManifestVerified": true,
+    "licenseAndNoticePayloadIncluded": true,
     "liveGameTestedForV1.4.1": false,
     "xnaGraphicsDeviceTestedForV1.4.1": false,
     "windowsPerformanceMeasuredForV1.4.1": false
