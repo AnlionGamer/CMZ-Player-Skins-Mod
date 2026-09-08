@@ -103,7 +103,7 @@ The v1.4.1 payload passed compiled offline checks covering:
 - full mip upload through reflective API-shaped test doubles,
 - and texture disposal after failed partial upload.
 
-The package privacy guard passed, and the final release archive's declared payload SHA-256 hashes were reverified after the license metadata correction.
+The package privacy guard passed. The final release archive's declared payload SHA-256 hashes were reverified after the license correction, and the `.cmzmod` now carries the full `LICENSE.txt` and `NOTICE.md` as declared, hashed payload files.
 
 **Not yet claimed for v1.4.1:** live CastleMiner Z / XNA graphics-device appearance testing, joining behavior, or Windows frame-rate measurement.
 
@@ -123,7 +123,7 @@ Player Skins does not intentionally modify world data, player progression, inven
 
 This repository is for **public releases and finished public-facing states only**. Development builders, intermediate test builds, dependencies, diagnostics, and private build artifacts are intentionally excluded.
 
-The reference manifest for each public release is kept under `Release/`. Installable `.cmzmod` packages belong on the GitHub **Releases** page rather than in the repository tree.
+The reference manifest for each public release is kept under `Release/`. Installable `.cmzmod` packages belong on the GitHub **Releases** page rather than in the repository tree. Current release packages carry their applicable license and project notice inside the `.cmzmod` so those terms remain attached when the package is shared separately from GitHub.
 
 ## License and Attribution
 
@@ -145,6 +145,6 @@ Current v1.4.1 package:
 
 SHA-256:
 
-`1e8323a4eee4842480ebc21690f6a3978265dc0430f8573a8d2cbd075282c866`
+`60529bb4d539f3946ca368b9c760c4b0f4eab1597eef09a839a24f7f28a3c269`
 
 A matching `SHA256SUMS.txt` is provided for release verification.
