@@ -2,13 +2,15 @@
 
 ## Current repository policy
 
-The current `main` branch and future Player Skins work are distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0** (`LicenseRef-AnlionGamer-CUMND-1.0`), unless a later release expressly states different terms.
+Player Skins **v1.4.1 and the current `main` branch** are distributed under the **AnlionGamer Community Distribution Terms v1.0**, unless a later release expressly states different terms.
 
-The current community license permits use, study, modification, free redistribution, and free forks while prohibiting sale or paid access to Player Skins or derivative works containing substantial portions of Player Skins. See [`LICENSE`](LICENSE) for the complete terms.
+Under the current terms, normal use, inspection of published source, and private modification are allowed. Public redistribution of the original project, packaged releases, forks, modified builds, or substantial copied portions requires **prior permission from AnlionGamer** and must remain **non-commercial**. Sale or paid access is prohibited without separate permission.
+
+See [`LICENSE`](LICENSE) for the complete controlling terms.
 
 ## Historical MIT releases
 
-Player Skins versions that were already published under the MIT License remain available under the MIT terms that accompanied those copies. This relicensing does not revoke permissions previously granted to those versions.
+Player Skins versions that were already published under the MIT License remain available under the MIT terms that accompanied those copies. The later licensing change does not revoke permissions previously granted to those historical copies.
 
 **Historical MIT coverage:** Player Skins **v1.3.3 and earlier releases published under MIT**.
 
