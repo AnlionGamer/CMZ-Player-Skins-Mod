@@ -4,11 +4,11 @@
 
 **Player Skins** was conceived, directed, and released by **AnlionGamer** for Castle Miner Z.
 
-The current repository `main` branch and future Player Skins work are distributed under the **AnlionGamer Community Use, Modification, and Noncommercial Distribution License v1.0**. See `LICENSE` for the controlling terms.
+The current repository `main` branch and future Player Skins work are governed by the **AnlionGamer Community Distribution Terms v1.0**. See `LICENSE` for the controlling terms.
+
+Public redistribution of project material or modified versions governed by the current terms requires prior permission from **AnlionGamer** and must remain non-commercial. Any permitted redistribution must preserve the applicable license, this project notice, reasonable attribution, and clear identification of modifications.
 
 Player Skins v1.3.3 and earlier copies already published under the MIT License retain the permissions granted to those historical copies. See `LICENSE_HISTORY.md` for the license transition record.
-
-When redistributing a version governed by the current community license, preserve the license, this project notice, reasonable credit to **AnlionGamer** as the original creator, and clear identification of modified or forked versions.
 
 ## Castle Miner Z
 
