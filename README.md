@@ -103,7 +103,7 @@ The v1.4.1 payload passed compiled offline checks covering:
 - full mip upload through reflective API-shaped test doubles,
 - and texture disposal after failed partial upload.
 
-The package privacy guard passed. The final release archive's declared payload SHA-256 hashes were reverified after the license correction, and the `.cmzmod` now carries the full `LICENSE.txt` and `NOTICE.md` as declared, hashed payload files.
+The package privacy guard passed. The final release archive's declared payload integrity was reverified after the license correction, and the `.cmzmod` now carries the full `LICENSE.txt` and `NOTICE.md` as declared payload files.
 
 **Not yet claimed for v1.4.1:** live CastleMiner Z / XNA graphics-device appearance testing, joining behavior, or Windows frame-rate measurement.
 
@@ -136,9 +136,3 @@ The terms allow normal use, source inspection where source is published, and pri
 The original Player Skins mod concept, design direction, and release are credited to **AnlionGamer**. Additional project attribution and the CastleMiner Z rights notice are documented in [`NOTICE.md`](NOTICE.md).
 
 CastleMiner Z and its original game assets remain the property of their respective rights holders. This is an independent, unofficial fan-made mod project and is not affiliated with or endorsed by the game's rights holders.
-
-## Release Integrity
-
-GitHub automatically publishes a SHA-256 digest for each uploaded release asset. The digest shown by GitHub for the asset on the **Releases** page is the authoritative public checksum for that uploaded file.
-
-This repository does not separately publish a manual release-file checksum. SHA-256 values embedded in package manifests remain part of the CMZ package format and are used by CMZ Mod Manager to validate declared payload files; they are not alternate public release checksums.
