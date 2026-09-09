@@ -19,7 +19,7 @@
 - Rebuilt all 140 Manager previews using the actual CMZ player geometry and texture bytes emitted by the compiled mod.
 - Preserved square pattern swatches in preview presentation.
 - Compiled offline tests passed for catalog identity, settings migration, local selection behavior, remote pool behavior, RGBA upload, mip upload, and failed-upload disposal.
-- Package privacy guard passed and declared payload hashes were reverified for the final release archive.
+- Package privacy guard passed and declared payload integrity was reverified for the final release archive.
 - Live CastleMiner Z / XNA graphics-device validation and Windows performance measurement are not claimed for v1.4.1.
 - v1.4.1 is distributed under the **AnlionGamer Community Distribution Terms v1.0**. Historical v1.3.3 and earlier MIT-distributed copies retain their original MIT permissions.
 
