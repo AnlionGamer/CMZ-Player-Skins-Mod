@@ -139,12 +139,6 @@ CastleMiner Z and its original game assets remain the property of their respecti
 
 ## Release Integrity
 
-Current v1.4.1 package:
+GitHub automatically publishes a SHA-256 digest for each uploaded release asset. The digest shown by GitHub for the asset on the **Releases** page is the authoritative public checksum for that uploaded file.
 
-`CMZ_Player_Skins_v1.4.1.cmzmod`
-
-SHA-256:
-
-`60529bb4d539f3946ca368b9c760c4b0f4eab1597eef09a839a24f7f28a3c269`
-
-A matching `SHA256SUMS.txt` is provided for release verification.
+This repository does not separately publish a manual release-file checksum. SHA-256 values embedded in package manifests remain part of the CMZ package format and are used by CMZ Mod Manager to validate declared payload files; they are not alternate public release checksums.
