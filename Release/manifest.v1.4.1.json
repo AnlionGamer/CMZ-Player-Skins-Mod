@@ -1,6 +1,6 @@
 {
   "referenceOnly": true,
-  "note": "Public reference summary for the v1.4.1 package. The installable .cmzmod on the GitHub Releases page contains the complete generated manifest, including all 140 choiceDetails and payload hashes.",
+  "note": "Public reference summary for the v1.4.1 package. The installable .cmzmod on the GitHub Releases page contains the complete generated manifest and package-integrity metadata.",
   "packageFormat": 1,
   "id": "cmz.player-skin-randomizer",
   "name": "Player Skins",
@@ -15,9 +15,6 @@
   "entryType": "CMZ.PlayerSkinRandomizer.PlayerSkinRandomizerMod",
   "license": "AnlionGamer Community Distribution Terms v1.0",
   "packageFile": "CMZ_Player_Skins_v1.4.1.cmzmod",
-  "packageSha256": "60529bb4d539f3946ca368b9c760c4b0f4eab1597eef09a839a24f7f28a3c269",
-  "packageManifestSha256": "ab2afb1e7069802d1854f82f040feb9eea9233434f32a39b2083bb9fa3fe9aa3",
-  "runtimeDllSha256": "a4f4121f7eb206c0b25dce72c8767bec12799f24246b4de8b5ce3a6b082b08b7",
   "catalog": {
     "total": 140,
     "solidColors": 17,
@@ -51,7 +48,7 @@
   "validation": {
     "compiledOfflineChecksPassed": true,
     "privacyGuardPassed": true,
-    "declaredPayloadHashesReverifiedAfterLicenseCorrection": true,
+    "declaredPayloadIntegrityReverifiedAfterLicenseCorrection": true,
     "licenseManifestVerified": true,
     "licenseAndNoticePayloadIncluded": true,
     "liveGameTestedForV1.4.1": false,
